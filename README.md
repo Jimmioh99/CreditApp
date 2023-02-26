@@ -1,6 +1,6 @@
 # CreditApp
 
 Tech Stack:
-UIKit - SnapKit
-VIPER + Dependency Injection (for Presentation Layer)
-Kingfisher
+- UIKit - SnapKit
+- VIPER + Dependency Injection (for Presentation Layer)
+- Kingfisher
