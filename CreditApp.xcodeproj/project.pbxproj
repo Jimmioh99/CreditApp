@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E539175A5636393EBDBBC6A /* Pods_CreditApp_CreditAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ACA05142E951A37CD7E8C0 /* Pods_CreditApp_CreditAppUITests.framework */; };
+		54407EA1FAF3F3ED215BC7E4 /* Pods_CreditApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06C27311A2CA30FCF65D1FD /* Pods_CreditApp.framework */; };
 		BE8EBB9729A9C79F006954F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBB9629A9C79F006954F8 /* AppDelegate.swift */; };
 		BE8EBB9929A9C79F006954F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBB9829A9C79F006954F8 /* SceneDelegate.swift */; };
 		BE8EBB9B29A9C79F006954F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBB9A29A9C79F006954F8 /* ViewController.swift */; };
@@ -16,6 +18,45 @@
 		BE8EBBAE29A9C7A1006954F8 /* CreditAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBAD29A9C7A1006954F8 /* CreditAppTests.swift */; };
 		BE8EBBB829A9C7A1006954F8 /* CreditAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBB729A9C7A1006954F8 /* CreditAppUITests.swift */; };
 		BE8EBBBA29A9C7A1006954F8 /* CreditAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBB929A9C7A1006954F8 /* CreditAppUITestsLaunchTests.swift */; };
+		BE8EBBCC29A9C819006954F8 /* TopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBCB29A9C819006954F8 /* TopUpViewController.swift */; };
+		BE8EBBCE29A9C81F006954F8 /* TopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBCD29A9C81F006954F8 /* TopUpView.swift */; };
+		BE8EBBD029A9C83C006954F8 /* LoanConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBCF29A9C83C006954F8 /* LoanConfirmationViewController.swift */; };
+		BE8EBBD229A9C865006954F8 /* PaymentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBD129A9C865006954F8 /* PaymentDetailsViewController.swift */; };
+		BE8EBBD429A9C872006954F8 /* PromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBD329A9C872006954F8 /* PromoViewController.swift */; };
+		BE8EBBD829A9CD10006954F8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBD729A9CD10006954F8 /* UIView+Extension.swift */; };
+		BE8EBBDB29A9EE18006954F8 /* NominalTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBDA29A9EE18006954F8 /* NominalTableCell.swift */; };
+		BE8EBBDD29A9F202006954F8 /* PromoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBDC29A9F202006954F8 /* PromoCollectionCell.swift */; };
+		BE8EBBDF29AA6D0D006954F8 /* PaymentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBDE29AA6D0D006954F8 /* PaymentDetailsView.swift */; };
+		BE8EBBE129AA6D11006954F8 /* PromoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBE029AA6D11006954F8 /* PromoView.swift */; };
+		BE8EBBE329AA6D16006954F8 /* LoanConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBE229AA6D16006954F8 /* LoanConfirmationView.swift */; };
+		BE8EBBE629AA6EE5006954F8 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBE529AA6EE5006954F8 /* InfoView.swift */; };
+		BE8EBBE829AA7BEA006954F8 /* PromoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBE729AA7BEA006954F8 /* PromoModel.swift */; };
+		BE8EBBF029AB2B76006954F8 /* MobileProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBEF29AB2B76006954F8 /* MobileProvider.swift */; };
+		BE8EBBF229AB4039006954F8 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBF129AB4039006954F8 /* UIStackView+Extension.swift */; };
+		BE8EBBF529AB4670006954F8 /* DataPackageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBF429AB4670006954F8 /* DataPackageModel.swift */; };
+		BE8EBBF729AB5086006954F8 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBF629AB5086006954F8 /* UIViewController+Extension.swift */; };
+		BE8EBBF929AB6300006954F8 /* PromoImageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBBF829AB6300006954F8 /* PromoImageTableCell.swift */; };
+		BE8EBC0129AB6340006954F8 /* PromoTextTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC0029AB6340006954F8 /* PromoTextTableCell.swift */; };
+		BE8EBC0329AB6435006954F8 /* PromoVoucherCodeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC0229AB6435006954F8 /* PromoVoucherCodeTableCell.swift */; };
+		BE8EBC0729AB6630006954F8 /* PromoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC0629AB6630006954F8 /* PromoViewModel.swift */; };
+		BE8EBC0B29AB667C006954F8 /* PromoViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC0A29AB667C006954F8 /* PromoViewType.swift */; };
+		BE8EBC0D29AB6E14006954F8 /* TitleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC0C29AB6E14006954F8 /* TitleTextView.swift */; };
+		BE8EBC1029AB717E006954F8 /* PaymentInfoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC0F29AB717E006954F8 /* PaymentInfoDetailsView.swift */; };
+		BE8EBC1229AB809D006954F8 /* OrderInfoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC1129AB809D006954F8 /* OrderInfoDetailsView.swift */; };
+		BE8EBC1429AB95FF006954F8 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC1329AB95FF006954F8 /* NavigationView.swift */; };
+		BE8EBC1629AB9784006954F8 /* NavigationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC1529AB9784006954F8 /* NavigationType.swift */; };
+		BE8EBC1B29ABA3D2006954F8 /* TopUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC1A29ABA3D2006954F8 /* TopUpRouter.swift */; };
+		BE8EBC1D29ABA3D8006954F8 /* TopUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC1C29ABA3D8006954F8 /* TopUpPresenter.swift */; };
+		BE8EBC2129ABA4CF006954F8 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC2029ABA4CF006954F8 /* Navigator.swift */; };
+		BE8EBC2429ABA53B006954F8 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC2329ABA53B006954F8 /* Assembler.swift */; };
+		BE8EBC2729ABA568006954F8 /* PresentationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC2629ABA568006954F8 /* PresentationAssembly.swift */; };
+		BE8EBC2D29ABB2B9006954F8 /* LoanConfirmationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC2C29ABB2B9006954F8 /* LoanConfirmationPresenter.swift */; };
+		BE8EBC2F29ABB2BD006954F8 /* LoanConfirmationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC2E29ABB2BD006954F8 /* LoanConfirmationRouter.swift */; };
+		BE8EBC3129ABB31B006954F8 /* PaymentDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC3029ABB31B006954F8 /* PaymentDetailsPresenter.swift */; };
+		BE8EBC3329ABB31E006954F8 /* PaymentDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC3229ABB31E006954F8 /* PaymentDetailsRouter.swift */; };
+		BE8EBC3529ABB37E006954F8 /* PromoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC3429ABB37E006954F8 /* PromoPresenter.swift */; };
+		BE8EBC3729ABB382006954F8 /* PromoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EBC3629ABB382006954F8 /* PromoRouter.swift */; };
+		D55E3642F4F81E2BAEA452F4 /* Pods_CreditAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1E353E5497BBB6643FB982 /* Pods_CreditAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +77,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E99BD9D6BF5406534D801F4 /* Pods-CreditApp-CreditAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditApp-CreditAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CreditApp-CreditAppUITests/Pods-CreditApp-CreditAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		220440F9BB82294A5FEF8CA9 /* Pods-CreditApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditApp.release.xcconfig"; path = "Target Support Files/Pods-CreditApp/Pods-CreditApp.release.xcconfig"; sourceTree = "<group>"; };
+		3E1E353E5497BBB6643FB982 /* Pods_CreditAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41ACA05142E951A37CD7E8C0 /* Pods_CreditApp_CreditAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditApp_CreditAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F88C7CD65589820CA149A4 /* Pods-CreditApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditApp.debug.xcconfig"; path = "Target Support Files/Pods-CreditApp/Pods-CreditApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8BFC1B6DE7F1323459DCEBDB /* Pods-CreditAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditAppTests.release.xcconfig"; path = "Target Support Files/Pods-CreditAppTests/Pods-CreditAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		BE8EBB9329A9C79F006954F8 /* CreditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8EBB9629A9C79F006954F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE8EBB9829A9C79F006954F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +96,47 @@
 		BE8EBBB329A9C7A1006954F8 /* CreditAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8EBBB729A9C7A1006954F8 /* CreditAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditAppUITests.swift; sourceTree = "<group>"; };
 		BE8EBBB929A9C7A1006954F8 /* CreditAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE8EBBCB29A9C819006954F8 /* TopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpViewController.swift; sourceTree = "<group>"; };
+		BE8EBBCD29A9C81F006954F8 /* TopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpView.swift; sourceTree = "<group>"; };
+		BE8EBBCF29A9C83C006954F8 /* LoanConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationViewController.swift; sourceTree = "<group>"; };
+		BE8EBBD129A9C865006954F8 /* PaymentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsViewController.swift; sourceTree = "<group>"; };
+		BE8EBBD329A9C872006954F8 /* PromoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewController.swift; sourceTree = "<group>"; };
+		BE8EBBD729A9CD10006954F8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		BE8EBBDA29A9EE18006954F8 /* NominalTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominalTableCell.swift; sourceTree = "<group>"; };
+		BE8EBBDC29A9F202006954F8 /* PromoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCollectionCell.swift; sourceTree = "<group>"; };
+		BE8EBBDE29AA6D0D006954F8 /* PaymentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsView.swift; sourceTree = "<group>"; };
+		BE8EBBE029AA6D11006954F8 /* PromoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoView.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		BE8EBBE229AA6D16006954F8 /* LoanConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationView.swift; sourceTree = "<group>"; };
+		BE8EBBE529AA6EE5006954F8 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		BE8EBBE729AA7BEA006954F8 /* PromoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoModel.swift; sourceTree = "<group>"; };
+		BE8EBBEF29AB2B76006954F8 /* MobileProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileProvider.swift; sourceTree = "<group>"; };
+		BE8EBBF129AB4039006954F8 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		BE8EBBF429AB4670006954F8 /* DataPackageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPackageModel.swift; sourceTree = "<group>"; };
+		BE8EBBF629AB5086006954F8 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BE8EBBF829AB6300006954F8 /* PromoImageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoImageTableCell.swift; sourceTree = "<group>"; };
+		BE8EBC0029AB6340006954F8 /* PromoTextTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoTextTableCell.swift; sourceTree = "<group>"; };
+		BE8EBC0229AB6435006954F8 /* PromoVoucherCodeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoVoucherCodeTableCell.swift; sourceTree = "<group>"; };
+		BE8EBC0629AB6630006954F8 /* PromoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewModel.swift; sourceTree = "<group>"; };
+		BE8EBC0A29AB667C006954F8 /* PromoViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewType.swift; sourceTree = "<group>"; };
+		BE8EBC0C29AB6E14006954F8 /* TitleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextView.swift; sourceTree = "<group>"; };
+		BE8EBC0F29AB717E006954F8 /* PaymentInfoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoDetailsView.swift; sourceTree = "<group>"; };
+		BE8EBC1129AB809D006954F8 /* OrderInfoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInfoDetailsView.swift; sourceTree = "<group>"; };
+		BE8EBC1329AB95FF006954F8 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		BE8EBC1529AB9784006954F8 /* NavigationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationType.swift; sourceTree = "<group>"; };
+		BE8EBC1A29ABA3D2006954F8 /* TopUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpRouter.swift; sourceTree = "<group>"; };
+		BE8EBC1C29ABA3D8006954F8 /* TopUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUpPresenter.swift; sourceTree = "<group>"; };
+		BE8EBC2029ABA4CF006954F8 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		BE8EBC2329ABA53B006954F8 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
+		BE8EBC2629ABA568006954F8 /* PresentationAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAssembly.swift; sourceTree = "<group>"; };
+		BE8EBC2C29ABB2B9006954F8 /* LoanConfirmationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationPresenter.swift; sourceTree = "<group>"; };
+		BE8EBC2E29ABB2BD006954F8 /* LoanConfirmationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanConfirmationRouter.swift; sourceTree = "<group>"; };
+		BE8EBC3029ABB31B006954F8 /* PaymentDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsPresenter.swift; sourceTree = "<group>"; };
+		BE8EBC3229ABB31E006954F8 /* PaymentDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsRouter.swift; sourceTree = "<group>"; };
+		BE8EBC3429ABB37E006954F8 /* PromoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoPresenter.swift; sourceTree = "<group>"; };
+		BE8EBC3629ABB382006954F8 /* PromoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoRouter.swift; sourceTree = "<group>"; };
+		C5C17DFF8871853B0166116B /* Pods-CreditApp-CreditAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditApp-CreditAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CreditApp-CreditAppUITests/Pods-CreditApp-CreditAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7B3FE087FDB004421730570 /* Pods-CreditAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditAppTests.debug.xcconfig"; path = "Target Support Files/Pods-CreditAppTests/Pods-CreditAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F06C27311A2CA30FCF65D1FD /* Pods_CreditApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54407EA1FAF3F3ED215BC7E4 /* Pods_CreditApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55E3642F4F81E2BAEA452F4 /* Pods_CreditAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +160,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E539175A5636393EBDBBC6A /* Pods_CreditApp_CreditAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A7459D506BE3B9D4BE54395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F06C27311A2CA30FCF65D1FD /* Pods_CreditApp.framework */,
+				41ACA05142E951A37CD7E8C0 /* Pods_CreditApp_CreditAppUITests.framework */,
+				3E1E353E5497BBB6643FB982 /* Pods_CreditAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE8EBB8A29A9C79F006954F8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +184,8 @@
 				BE8EBBAC29A9C7A1006954F8 /* CreditAppTests */,
 				BE8EBBB629A9C7A1006954F8 /* CreditAppUITests */,
 				BE8EBB9429A9C79F006954F8 /* Products */,
+				E723FBBD199D7A5DC82D54D8 /* Pods */,
+				2A7459D506BE3B9D4BE54395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +202,9 @@
 		BE8EBB9529A9C79F006954F8 /* CreditApp */ = {
 			isa = PBXGroup;
 			children = (
-				BE8EBB9629A9C79F006954F8 /* AppDelegate.swift */,
-				BE8EBB9829A9C79F006954F8 /* SceneDelegate.swift */,
-				BE8EBB9A29A9C79F006954F8 /* ViewController.swift */,
-				BE8EBB9C29A9C79F006954F8 /* Main.storyboard */,
-				BE8EBB9F29A9C7A1006954F8 /* Assets.xcassets */,
-				BE8EBBA129A9C7A1006954F8 /* LaunchScreen.storyboard */,
-				BE8EBBA429A9C7A1006954F8 /* Info.plist */,
+				BE8EBBD529A9CD07006954F8 /* Helper */,
+				BE8EBBC629A9C7A9006954F8 /* Module */,
+				BE8EBC3829ABB8B3006954F8 /* Root */,
 			);
 			path = CreditApp;
 			sourceTree = "<group>";
@@ -127,6 +226,181 @@
 			path = CreditAppUITests;
 			sourceTree = "<group>";
 		};
+		BE8EBBC629A9C7A9006954F8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBC2529ABA559006954F8 /* ModuleAssembly */,
+				BE8EBC2229ABA520006954F8 /* PresentationLayer */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BE8EBBC729A9C7B1006954F8 /* TopUp */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBC1C29ABA3D8006954F8 /* TopUpPresenter.swift */,
+				BE8EBC1A29ABA3D2006954F8 /* TopUpRouter.swift */,
+				BE8EBBCD29A9C81F006954F8 /* TopUpView.swift */,
+				BE8EBBCB29A9C819006954F8 /* TopUpViewController.swift */,
+				BE8EBBD929A9EDFF006954F8 /* Cell */,
+			);
+			path = TopUp;
+			sourceTree = "<group>";
+		};
+		BE8EBBC829A9C7D3006954F8 /* LoanConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBC2C29ABB2B9006954F8 /* LoanConfirmationPresenter.swift */,
+				BE8EBC2E29ABB2BD006954F8 /* LoanConfirmationRouter.swift */,
+				BE8EBBE229AA6D16006954F8 /* LoanConfirmationView.swift */,
+				BE8EBBCF29A9C83C006954F8 /* LoanConfirmationViewController.swift */,
+			);
+			path = LoanConfirmation;
+			sourceTree = "<group>";
+		};
+		BE8EBBC929A9C7FC006954F8 /* PaymentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBC3029ABB31B006954F8 /* PaymentDetailsPresenter.swift */,
+				BE8EBC3229ABB31E006954F8 /* PaymentDetailsRouter.swift */,
+				BE8EBBDE29AA6D0D006954F8 /* PaymentDetailsView.swift */,
+				BE8EBBD129A9C865006954F8 /* PaymentDetailsViewController.swift */,
+			);
+			path = PaymentDetails;
+			sourceTree = "<group>";
+		};
+		BE8EBBCA29A9C803006954F8 /* Promo */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBC3429ABB37E006954F8 /* PromoPresenter.swift */,
+				BE8EBC3629ABB382006954F8 /* PromoRouter.swift */,
+				BE8EBBE029AA6D11006954F8 /* PromoView.swift */,
+				BE8EBBD329A9C872006954F8 /* PromoViewController.swift */,
+				BE8EBBE929AA7E9D006954F8 /* Cell */,
+			);
+			path = Promo;
+			sourceTree = "<group>";
+		};
+		BE8EBBD529A9CD07006954F8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBF329AB466A006954F8 /* Model */,
+				BE8EBBEE29AB2B67006954F8 /* Enum */,
+				BE8EBBE429AA6EC4006954F8 /* View */,
+				BE8EBBD629A9CD09006954F8 /* Extension */,
+				BE8EBC2029ABA4CF006954F8 /* Navigator.swift */,
+				BE8EBC2329ABA53B006954F8 /* Assembler.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BE8EBBD629A9CD09006954F8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBD729A9CD10006954F8 /* UIView+Extension.swift */,
+				BE8EBBF129AB4039006954F8 /* UIStackView+Extension.swift */,
+				BE8EBBF629AB5086006954F8 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BE8EBBD929A9EDFF006954F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBDA29A9EE18006954F8 /* NominalTableCell.swift */,
+				BE8EBBDC29A9F202006954F8 /* PromoCollectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BE8EBBE429AA6EC4006954F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBE529AA6EE5006954F8 /* InfoView.swift */,
+				BE8EBC0C29AB6E14006954F8 /* TitleTextView.swift */,
+				BE8EBC0F29AB717E006954F8 /* PaymentInfoDetailsView.swift */,
+				BE8EBC1129AB809D006954F8 /* OrderInfoDetailsView.swift */,
+				BE8EBC1329AB95FF006954F8 /* NavigationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE8EBBE929AA7E9D006954F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBF829AB6300006954F8 /* PromoImageTableCell.swift */,
+				BE8EBC0029AB6340006954F8 /* PromoTextTableCell.swift */,
+				BE8EBC0229AB6435006954F8 /* PromoVoucherCodeTableCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BE8EBBEE29AB2B67006954F8 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBEF29AB2B76006954F8 /* MobileProvider.swift */,
+				BE8EBC0A29AB667C006954F8 /* PromoViewType.swift */,
+				BE8EBC1529AB9784006954F8 /* NavigationType.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		BE8EBBF329AB466A006954F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBE729AA7BEA006954F8 /* PromoModel.swift */,
+				BE8EBC0629AB6630006954F8 /* PromoViewModel.swift */,
+				BE8EBBF429AB4670006954F8 /* DataPackageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE8EBC2229ABA520006954F8 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBBC729A9C7B1006954F8 /* TopUp */,
+				BE8EBBC829A9C7D3006954F8 /* LoanConfirmation */,
+				BE8EBBC929A9C7FC006954F8 /* PaymentDetails */,
+				BE8EBBCA29A9C803006954F8 /* Promo */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		BE8EBC2529ABA559006954F8 /* ModuleAssembly */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBC2629ABA568006954F8 /* PresentationAssembly.swift */,
+			);
+			path = ModuleAssembly;
+			sourceTree = "<group>";
+		};
+		BE8EBC3829ABB8B3006954F8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BE8EBB9629A9C79F006954F8 /* AppDelegate.swift */,
+				BE8EBB9829A9C79F006954F8 /* SceneDelegate.swift */,
+				BE8EBB9A29A9C79F006954F8 /* ViewController.swift */,
+				BE8EBB9C29A9C79F006954F8 /* Main.storyboard */,
+				BE8EBB9F29A9C7A1006954F8 /* Assets.xcassets */,
+				BE8EBBA129A9C7A1006954F8 /* LaunchScreen.storyboard */,
+				BE8EBBA429A9C7A1006954F8 /* Info.plist */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		E723FBBD199D7A5DC82D54D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F88C7CD65589820CA149A4 /* Pods-CreditApp.debug.xcconfig */,
+				220440F9BB82294A5FEF8CA9 /* Pods-CreditApp.release.xcconfig */,
+				0E99BD9D6BF5406534D801F4 /* Pods-CreditApp-CreditAppUITests.debug.xcconfig */,
+				C5C17DFF8871853B0166116B /* Pods-CreditApp-CreditAppUITests.release.xcconfig */,
+				D7B3FE087FDB004421730570 /* Pods-CreditAppTests.debug.xcconfig */,
+				8BFC1B6DE7F1323459DCEBDB /* Pods-CreditAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +408,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE8EBBBD29A9C7A1006954F8 /* Build configuration list for PBXNativeTarget "CreditApp" */;
 			buildPhases = (
+				50639CDA5303F0F9B835CE45 /* [CP] Check Pods Manifest.lock */,
 				BE8EBB8F29A9C79F006954F8 /* Sources */,
 				BE8EBB9029A9C79F006954F8 /* Frameworks */,
 				BE8EBB9129A9C79F006954F8 /* Resources */,
+				A15CB0095CB57561637FF5F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +427,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE8EBBC029A9C7A1006954F8 /* Build configuration list for PBXNativeTarget "CreditAppTests" */;
 			buildPhases = (
+				90FF9DC702F67E8F5BF3D597 /* [CP] Check Pods Manifest.lock */,
 				BE8EBBA529A9C7A1006954F8 /* Sources */,
 				BE8EBBA629A9C7A1006954F8 /* Frameworks */,
 				BE8EBBA729A9C7A1006954F8 /* Resources */,
@@ -169,9 +446,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE8EBBC329A9C7A1006954F8 /* Build configuration list for PBXNativeTarget "CreditAppUITests" */;
 			buildPhases = (
+				42E68C1A69757E2E3222588A /* [CP] Check Pods Manifest.lock */,
 				BE8EBBAF29A9C7A1006954F8 /* Sources */,
 				BE8EBBB029A9C7A1006954F8 /* Frameworks */,
 				BE8EBBB129A9C7A1006954F8 /* Resources */,
+				A24EA4F594F45E2B9A89A2FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +532,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42E68C1A69757E2E3222588A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreditApp-CreditAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50639CDA5303F0F9B835CE45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreditApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FF9DC702F67E8F5BF3D597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreditAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A15CB0095CB57561637FF5F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditApp/Pods-CreditApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditApp/Pods-CreditApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreditApp/Pods-CreditApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24EA4F594F45E2B9A89A2FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditApp-CreditAppUITests/Pods-CreditApp-CreditAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditApp-CreditAppUITests/Pods-CreditApp-CreditAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreditApp-CreditAppUITests/Pods-CreditApp-CreditAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE8EBB8F29A9C79F006954F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8EBBDD29A9F202006954F8 /* PromoCollectionCell.swift in Sources */,
+				BE8EBBD429A9C872006954F8 /* PromoViewController.swift in Sources */,
+				BE8EBC1229AB809D006954F8 /* OrderInfoDetailsView.swift in Sources */,
+				BE8EBBE129AA6D11006954F8 /* PromoView.swift in Sources */,
+				BE8EBBD229A9C865006954F8 /* PaymentDetailsViewController.swift in Sources */,
 				BE8EBB9B29A9C79F006954F8 /* ViewController.swift in Sources */,
+				BE8EBC1629AB9784006954F8 /* NavigationType.swift in Sources */,
+				BE8EBC3729ABB382006954F8 /* PromoRouter.swift in Sources */,
+				BE8EBBD829A9CD10006954F8 /* UIView+Extension.swift in Sources */,
+				BE8EBBD029A9C83C006954F8 /* LoanConfirmationViewController.swift in Sources */,
+				BE8EBC1D29ABA3D8006954F8 /* TopUpPresenter.swift in Sources */,
+				BE8EBC2F29ABB2BD006954F8 /* LoanConfirmationRouter.swift in Sources */,
+				BE8EBBCE29A9C81F006954F8 /* TopUpView.swift in Sources */,
+				BE8EBBF529AB4670006954F8 /* DataPackageModel.swift in Sources */,
 				BE8EBB9729A9C79F006954F8 /* AppDelegate.swift in Sources */,
+				BE8EBBE829AA7BEA006954F8 /* PromoModel.swift in Sources */,
+				BE8EBBF929AB6300006954F8 /* PromoImageTableCell.swift in Sources */,
 				BE8EBB9929A9C79F006954F8 /* SceneDelegate.swift in Sources */,
+				BE8EBBF729AB5086006954F8 /* UIViewController+Extension.swift in Sources */,
+				BE8EBC0329AB6435006954F8 /* PromoVoucherCodeTableCell.swift in Sources */,
+				BE8EBBCC29A9C819006954F8 /* TopUpViewController.swift in Sources */,
+				BE8EBBE329AA6D16006954F8 /* LoanConfirmationView.swift in Sources */,
+				BE8EBBF229AB4039006954F8 /* UIStackView+Extension.swift in Sources */,
+				BE8EBC2429ABA53B006954F8 /* Assembler.swift in Sources */,
+				BE8EBBDF29AA6D0D006954F8 /* PaymentDetailsView.swift in Sources */,
+				BE8EBC0729AB6630006954F8 /* PromoViewModel.swift in Sources */,
+				BE8EBBF029AB2B76006954F8 /* MobileProvider.swift in Sources */,
+				BE8EBC2729ABA568006954F8 /* PresentationAssembly.swift in Sources */,
+				BE8EBC2D29ABB2B9006954F8 /* LoanConfirmationPresenter.swift in Sources */,
+				BE8EBC1429AB95FF006954F8 /* NavigationView.swift in Sources */,
+				BE8EBC3329ABB31E006954F8 /* PaymentDetailsRouter.swift in Sources */,
+				BE8EBC1029AB717E006954F8 /* PaymentInfoDetailsView.swift in Sources */,
+				BE8EBC2129ABA4CF006954F8 /* Navigator.swift in Sources */,
+				BE8EBC3529ABB37E006954F8 /* PromoPresenter.swift in Sources */,
+				BE8EBC0129AB6340006954F8 /* PromoTextTableCell.swift in Sources */,
+				BE8EBC0B29AB667C006954F8 /* PromoViewType.swift in Sources */,
+				BE8EBBE629AA6EE5006954F8 /* InfoView.swift in Sources */,
+				BE8EBC3129ABB31B006954F8 /* PaymentDetailsPresenter.swift in Sources */,
+				BE8EBBDB29A9EE18006954F8 /* NominalTableCell.swift in Sources */,
+				BE8EBC0D29AB6E14006954F8 /* TitleTextView.swift in Sources */,
+				BE8EBC1B29ABA3D2006954F8 /* TopUpRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +852,7 @@
 		};
 		BE8EBBBE29A9C7A1006954F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F88C7CD65589820CA149A4 /* Pods-CreditApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +860,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V5C63N3TQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CreditApp/Info.plist;
+				INFOPLIST_FILE = CreditApp/Root/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -460,6 +881,7 @@
 		};
 		BE8EBBBF29A9C7A1006954F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220440F9BB82294A5FEF8CA9 /* Pods-CreditApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,7 +889,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V5C63N3TQ2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CreditApp/Info.plist;
+				INFOPLIST_FILE = CreditApp/Root/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -488,6 +910,7 @@
 		};
 		BE8EBBC129A9C7A1006954F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B3FE087FDB004421730570 /* Pods-CreditAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +931,7 @@
 		};
 		BE8EBBC229A9C7A1006954F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFC1B6DE7F1323459DCEBDB /* Pods-CreditAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +952,7 @@
 		};
 		BE8EBBC429A9C7A1006954F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E99BD9D6BF5406534D801F4 /* Pods-CreditApp-CreditAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +971,7 @@
 		};
 		BE8EBBC529A9C7A1006954F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C17DFF8871853B0166116B /* Pods-CreditApp-CreditAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
