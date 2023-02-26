@@ -11,6 +11,7 @@ target 'CreditApp' do
   pod 'FLEX'
   pod 'Kingfisher'
   pod 'Swinject'
+  pod 'IQKeyboardManager'
 
   target 'CreditAppTests' do
     inherit! :search_paths
